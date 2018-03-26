@@ -1,8 +1,8 @@
-# docker-nginx-redirect-ssl
+# docker-nginx-origin2www
 
-Redirect all HTTP requests to HTTPS
+Redirect all requests to www.<domain>
 
 Example:
 ```sh
-docker run --rm -p 80:80 mabitt/nginx-redirect-ssl
+docker run --rm -p 80:80 mabitt/nginx-origin2www
 ```
