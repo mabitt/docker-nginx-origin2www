@@ -1,6 +1,6 @@
 # docker-nginx-origin2www
 
-Redirect all requests to www.*domain*
+Redirect all requests to www.<domain>
 
 Example:
 ```sh
