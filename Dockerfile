@@ -1,4 +1,4 @@
-FROM nginx:alpine
+FROM nginx:1.23.1-alpine
 MAINTAINER MAB <mab@mab.net>
 
 # Keep image updated
